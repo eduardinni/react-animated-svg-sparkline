@@ -8,6 +8,10 @@
     "type": "git",
     "url": "git+https://github.com/eduardinni/react-animated-svg-sparkline.git"
   },
+  "bugs": {
+    "url": "https://github.com/eduardinni/react-animated-svg-sparkline/issues"
+  },
+  "homepage": "https://github.com/eduardinni/react-animated-svg-sparkline#readme",
   "keywords": [
     "react",
     "react-component",
