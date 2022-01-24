@@ -166,10 +166,10 @@ const ReactAnimatedSVGSparkline = ({
   height = 400,
   paddingX = 0,
   paddingY = 40,
-  className = '',
+  className = null,
   strokeWidth = 6,
   showGrid = true,
-  tipText = '',
+  tipText = null,
   tipTextWidth = 120,
 }) => {
   const [state, setState] = useState(INITIAL_STATE);
@@ -264,7 +264,7 @@ const ReactAnimatedSVGSparkline = ({
         }}
       />
 
-      {tipText !== '' && (
+      {tipText !== null && (
         <g
           className={styles.tip}
           transform={`translate(${state.lastPoint.x - 60},${
